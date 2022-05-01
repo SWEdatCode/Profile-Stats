@@ -1,7 +1,7 @@
 const countersEl = document.querySelectorAll(".counter");
 countersEl.forEach(counterEl=>{
     counterEl.innerText ="0";
-    incrementCounter()
+    incrementCounter();
 
 function incrementCounter(){
     let currentNum = +counterEl.innerText
